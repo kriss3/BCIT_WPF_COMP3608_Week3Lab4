@@ -9,7 +9,7 @@
         Height="299.067" 
         Width="420.522" 
         WindowStartupLocation="CenterScreen"
-        TextBoxBase.TextChanged="Window_TextChanged">
+        TextBoxBase.TextChanged="Window_TextChanged" ResizeMode="NoResize">
     <Grid TextBoxBase.TextChanged="Grid_TextChanged">
         <TextBox Name="txtBox"
                  HorizontalAlignment="Left" 
